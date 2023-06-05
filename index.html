@@ -27,10 +27,10 @@
         <nav>
             <ul>
                 <li><a href="#home">HOME</a></li>
-                <li><a href="#feature">ABOUT</a></li>
-                <li><a href="#service">SERVICES</a></li>
-                <li><a href="#testimoial">PORTFOLIO</a></li>
-                <li><a href="#footer">CONTACT</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#Contact">CONTACT</a></li>
                 <!-- <li><a href="https://bulma.io/">BULMA CSS</a></li> -->
             </ul>
         </nav>
@@ -43,7 +43,7 @@
 
 
     <section id="home" class="columns is-mobile is-multiline is-centered">
-        <div class="column">
+        <div class="column" id="visible">
             <div class="home-content is-centered">
             <h3>Hay Guys, It's Me</h3>
             <h1>Dada Ibidapo</h1>
@@ -53,11 +53,11 @@
             <div class="wrapper">
                 <div class="static-txt">And i'm a</div>
                     <ul class="dynamic-txts">
-                        <li><span>Full Stack Software Engineer</span></li>
-                        <li><span>Machine learning Engineer</span></li>
+                        <li><span>Full Stack Software Eng.</span></li>
+                        <li><span>Machine learning Eng.</span></li>
                         <li><span>Deep learning Engineer</span></li>
-                        <li><span>Researcher (comp. science)</span></li>
-                        <li><span>Lecuturer (comp. science)</span></li>
+                        <li><span>Researcher</span></li>
+                        <li><span>Lecuturer</span></li>
                         <li><span>Freelancer</span></li>
                     </ul>
                 </div>
@@ -71,10 +71,10 @@
                     <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
                 </div>
             </div>
-                <a href=""  class="btn">Download CV</a>
+                <a href="https://onedrive.live.com/download?cid=6D83DB1DD9B6B336&resid=6D83DB1DD9B6B336%21998&authkey=AN"   class="btn">Download CV</a>
         </div>
         
-        <div class="column">
+        <div class="column" id="hidden">
             <div class="home-img">
                 <img src="image/myimage.jpg" alt="">
             </div>
@@ -162,10 +162,10 @@
     </section>
 
 <!-- =================================================================================================================================================================================================================================================================================</section> -->
-<section id="latest_project" class="rows">
-    <div class="title-text block">
-        <p>SERVICES</p>
-        <h1>We Provide Better</h1>
+<section id="portfolio" class="rows">
+    <div class="home-content">
+        <!-- <p>portfolio</p> -->
+        <h1>Portfolio</h1>
     </div>
 
     <div class="columns">
@@ -218,8 +218,46 @@
     </div>
 
 </section>
+<!-- -==================================================================================================================================== -->
+<section id="Contact" class="rows">
+    <div class="home-content">
+        <h1 class=" block ">Contact Us</h1>
+    </div>
+    <div>
+        <div class="rows">
+            <div class="columns">
+                <div class="column">
+                    <input class="input" type="text" placeholder="Text input">
+                </div>
+                <div class="column">
+                    <input class="input" type="text" placeholder="Text input">
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <input class="input" type="text" placeholder="Text input">
+                </div>
+                <div class="column">
+                    <input class="input" type="text" placeholder="Text input">
+                </div>
+            </div>
+            <div class="row">
+                <textarea class="textarea" placeholder="10 lines of textarea" rows="10"></textarea>
+            </div>
+        <div style="margin-top: 1rem; color: blue;">
+        <a href=""  class="btn1">Send Message</a>
+        </div>
+        </div>        
+    </div>
+</section>
 
-
+<footer style="background-color:#2b2b85">
+    <div class="container" style="color: white; ">
+        <div class="row">
+            <p>copy right</p>
+        </div>
+    </div>
+</footer>
 
 
     <script src="script.js"></script>

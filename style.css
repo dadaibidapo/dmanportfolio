@@ -75,7 +75,7 @@ nav ul li a{
 }
 /*  --------------------------------------- */
 
-#home, #services{
+#home, #services, #Contact{
     /* display: flex; */
     justify-content: center;
     align-items: center;
@@ -119,7 +119,7 @@ nav ul li a{
 }
 
 .home-content h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.3;
 }
@@ -136,14 +136,14 @@ nav ul li a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     background: transparent;
     border: .2rem solid #2b2b85;
     color: #2b2b85;
     border-radius: 50%;
     font-size: 1rem;
-    margin: 2rem 1rem 2rem 0;
+    margin: 1rem 0.5rem 2rem 0;
     transition: .5s ease;
 }
 
@@ -154,20 +154,20 @@ nav ul li a{
 }
 
 
-.btn{
+.btn,.btn1{
     display: inline-block;
-    padding: 1rem 2.8rem;
+    padding: 0.7rem 0.7rem;
     background: #2b2b85;
     box-shadow: 0 0 1rem #2b2b85;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #fff;
     border-radius: 3rem;
-    letter-spacing: 1;
+    letter-spacing: 0.5;
     transition: .5s ease;
     margin-top: 0.2rem;
 }
 
-.btn:hover{
+.btn:hover,.btn1:hover:hover {
     color: #2b2b85;
     background-color: #fff;
     box-shadow: 0 0 1rem red ;
@@ -185,8 +185,8 @@ nav ul li a{
 
 .wrapper .static-txt{
     color: #fff;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 900;
 }
 
  .dynamic-txts li{
@@ -243,7 +243,7 @@ nav ul li a{
 /* ====================================================================== */
 /* =========================== typing css */
 
-#about,#latest_project{
+#about,#portfolio{
     background-color: #2b2b85;
     justify-content: center;
     align-items: center;
@@ -337,6 +337,14 @@ hr{
 
 
 @media screen and (max-width:770px){
+/* #hidden{
+    opacity: 0;
+}
+#visible{
+    display: block;
+    width: 100%;
+} */
+    
     .wrapper{
         display: block;
         width: 100%;
@@ -345,15 +353,15 @@ hr{
     }
 
     .dynamic-txts li{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .service-desc h3{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .service-desc p{
-        font-size: 10px;
+        font-size:9px;
     }
 
 }
